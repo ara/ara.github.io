@@ -1,0 +1,19 @@
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: #FF9696
+}
+
+body{
+  background-image: url(../images/motif.png);
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  color: #f1c122;;
+}
+
+a:link {
+  color: rgb(255, 128, 64);
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: underline;
+}
