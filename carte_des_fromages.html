@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f5534627781d4bd2b81939b3a76038f6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f5534627781d4bd2b81939b3a76038f6" ></div>
+        
+</body>
+<script>    
+    
+            var map_f5534627781d4bd2b81939b3a76038f6 = L.map(
+                "map_f5534627781d4bd2b81939b3a76038f6",
+                {
+                    center: [46.229147499999996, 2.316345],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e011feb5d7d241d79a728e8c9df8d438 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f5534627781d4bd2b81939b3a76038f6);
+        
+    
+            var marker_b7b6a969e31345e0968b39d4c9205a39 = L.marker(
+                [46.187101, 2.246825],
+                {}
+            ).addTo(map_f5534627781d4bd2b81939b3a76038f6);
+        
+    
+            marker_b7b6a969e31345e0968b39d4c9205a39.bindTooltip(
+                `<div>
+                     <b>Laiterie fromagerie de la Voueize</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3012c3576d1a44cca12c53138a6d8108 = L.marker(
+                [46.181255, 1.886221],
+                {}
+            ).addTo(map_f5534627781d4bd2b81939b3a76038f6);
+        
+    
+            marker_3012c3576d1a44cca12c53138a6d8108.bindTooltip(
+                `<div>
+                     <b>Fromagerie Gerentes</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_620ac9cec8774323ac284e0329414e17 = L.marker(
+                [46.124995, 2.023695],
+                {}
+            ).addTo(map_f5534627781d4bd2b81939b3a76038f6);
+        
+    
+            marker_620ac9cec8774323ac284e0329414e17.bindTooltip(
+                `<div>
+                     <b>Fromageries Perreault</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7aa6e0c15a34702958d686927d10366 = L.marker(
+                [46.3333, 2.608995],
+                {}
+            ).addTo(map_f5534627781d4bd2b81939b3a76038f6);
+        
+    
+            marker_c7aa6e0c15a34702958d686927d10366.bindTooltip(
+                `<div>
+                     <b>Fromagerie Grand mère</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
